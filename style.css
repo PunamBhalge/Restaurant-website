@@ -1,0 +1,218 @@
+body,h1,h2,p
+{
+  margin: 0;
+  
+}
+
+.wrapper
+{
+  width: 100%;
+}
+
+.header{
+  width: 100%;
+    overflow:hidden;
+    background-color: #333;
+    top: 0;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    color:#FF0404  ;
+  }
+  
+  /* Style the header links*/
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight:bold;
+    
+  }
+  
+ 
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header-left
+  {
+    color: crimson;
+       width: 50%;
+       float: left;
+       margin:1%;
+       font-size: 30px;
+       
+  }
+  
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+    width: 48%;
+    margin:1%;
+    
+  }
+
+  
+  
+    .header a {
+    
+      display: inline-block;
+      text-align: left;
+    }
+   
+  
+  
+/* main menu */
+.home-menu
+{
+    width: 100%;
+    float: left;
+   background-image:url(../img/about-main.jpg );
+   background-size: 100%;
+   background-repeat: no-repeat; 
+    
+}
+.home-menu,h1,h2
+{
+  text-align: center;
+  padding: 50px;
+}
+
+.animation
+{
+    font-size: 100px;
+   color: aqua;
+    animation-name:Myanimation ;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-direction: alternate;
+    /* animation-delay: 2s; */
+    position: relative;
+}
+h2{
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+@keyframes Myanimation
+        {
+         0%{ left:0%; top:0px;}
+         25%{ left:40%; top:0px ;}
+        }
+
+   
+        /* dishes */
+
+        .container
+        {
+            width: 100%;
+            margin: auto;
+            background: violet;
+            overflow: auto;
+        }
+        .gallary
+    {
+        margin: 5px;
+        border: 1px solid black;
+        float: left;
+        width: 30%;
+    }
+    .gallary img
+    {
+        width: 100%;
+        height:300px ;
+        /* height: auto; */
+
+    }
+    .desc
+    {
+        padding: 15px;
+        text-align: center;
+    }
+
+/* about us */
+.aboutus
+{
+  width: 100%;
+  background-image: url(../img/download\ \(1\).jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat; 
+   
+  float: left;
+}
+.about-left
+{
+  width:48%;
+  float: left;
+  color: rgb(8, 248, 136);
+  padding: 20px;
+  text-align: justify;
+}
+.about-right
+{
+  width:48%;
+  float: right;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+
+.contact
+{
+  
+  background-color: #FF0404;
+  background-image: url(../img/about-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  align-items: center;
+  height: 400px;
+  /* margin: 1% ; */
+  /* padding:10px; */
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+.contact_info
+{
+  color: rgb(249, 248, 249);
+  font-size:50px;
+  text-align: center;
+  padding: 20px;
+  
+}
+/* .form
+{
+
+} */
+
+.btn
+{
+  background-color: rgb(12, 248, 12);
+  border-radius: 4px;
+}
+
+/* footer */
+  #footer {
+    
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color:#333;
+    color:white;
+    text-align: center;
+  }
+    
